@@ -1036,6 +1036,16 @@
 }
 
 /* 430px */
+@media (max-width: 440px) {
+  .dots {
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+}
+
+/* 430px */
 @media (max-width: 430px) {
   .dots {
     top: 85%;
