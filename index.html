@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmVest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- absolute images -->
+    <img class="ellipse1" src="img/imenaelipse.svg" alt="ellipse" />
+    <img class="ellipse2" src="img/imenaelipse.svg" alt="ellipse" />
+    <img class="star-fill" src="img/star-fill.svg" alt="start" />
+    <img class="money" src="img/money.svg" alt="money" />
+    <img class="dollar" src="img/dollar.svg" alt="dollar" />
+    <img class="star-empty" src="img/star-empty.svg" alt="star" />
+    <img class="circle-fill" src="img/circle-white.svg" alt="circle" />
+    <img class="naira" src="img/naira.svg" alt="naira" />
+
+    <!-- absolute images -->
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="#">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+
+        <ul class="menu__list nav__hidden">
+          <li class="menu__list-item">
+            <a href="#section--1" class="menu__list-link"> How it works </a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#section--2" class="menu__list-link"> About </a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#section--3" class="menu__list-link"> Features </a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#section--4" class="menu__list-link"> Testimonial </a>
+          </li>
+          <li class="menu__list-item">
+            <a href="#section--5" class="getstart mob__get">Get Started</a>
+          </li>
+        </ul>
+
+        <div class="navigation__btns">
+          <a href="#section--5" class="navigation__btns-link sign-in"
+            >Sign In</a
+          >
+          <a href="#section--5" class="navigation__btns-link get-started"
+            >Get Started</a
+          >
+        </div>
+        <button class="btn__burger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 burger"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="#fff"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+        <button class="btn__close invisible">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="close h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="#fff"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <section class="section__intro container">
+      <div class="intro__inner">
+        <h1 class="intro__inner-title">
+          The easiest and fastest <br />
+          way to <span>invest</span> in <br />
+          Agriculture
+        </h1>
+        <p class="intro__inner-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis
+          aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor
+          sit amet.Lorem ipsum dolor sit amet, consectetur
+        </p>
+
+        <div class="intro__input-wrapper">
+          <input
+            class="intro__input"
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter your email"
+          />
+          <a href="#" class="navigation__btns-link get-started for__input"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section__companies container">
+      <div class="companies__wrapper">
+        <div class="companies__img-div">
+          <img src="img/marketwathc.png" alt="" />
+        </div>
+
+        <div class="companies__img-div">
+          <img src="img/forbes.png" alt="" />
+        </div>
+
+        <div class="companies__img-div">
+          <img src="img/businessinsider.png" alt="" />
+        </div>
+
+        <div class="companies__img-div">
+          <img src="img/fidelity.png" alt="" />
+        </div>
+
+        <div class="companies__img-div">
+          <img src="img/wiredd.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="section--1" class="section section__howitwork container">
+      <div class="howitwork__wrapper side_to_side_grid">
+        <div class="howitwork__text-content">
+          <h2 class="heading__secondary">
+            How <span>FarmVest</span> <br />
+            Works
+          </h2>
+          <p class="howitwork__text side_to_side_grid_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu,
+            mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem
+            ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+          </p>
+          <div class="howitwork__steps">
+            <div class="howitwork__step">
+              <div class="step__icon-div">
+                <img class="step__icon" src="img/down.svg" alt="download" />
+              </div>
+              <div class="step__text-wrapper">
+                <p class="step__title">Download FarmVest</p>
+                <p class="step__text">
+                  Start by downloading FarmVest app on your Android or IOS
+                </p>
+              </div>
+            </div>
+
+            <div class="howitwork__step">
+              <div class="step__icon-div">
+                <img class="step__icon" src="img/acc.svg" alt="account" />
+              </div>
+              <div class="step__text-wrapper">
+                <p class="step__title">Create account</p>
+                <p class="step__text">
+                  Start by downloading FarmVest app on your Android or IOS
+                </p>
+              </div>
+            </div>
+
+            <div class="howitwork__step">
+              <div class="step__icon-div">
+                <img class="step__icon" src="img/bank.svg" alt="download" />
+              </div>
+              <div class="step__text-wrapper">
+                <p class="step__title">Link your bank account</p>
+                <p class="step__text">
+                  Start by downloading FarmVest app on your Android or IOS
+                </p>
+              </div>
+            </div>
+
+            <div class="howitwork__step">
+              <div class="step__icon-div">
+                <img class="step__icon" src="img/invest.svg" alt="download" />
+              </div>
+              <div class="step__text-wrapper">
+                <p class="step__title">Start investing</p>
+                <p class="step__text">
+                  Start by downloading FarmVest app on your Android or IOS
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="howitwork__img-content side_to_side_grid_img_content">
+          <img class="ellipse-how1" src="img/imenaelipse.svg" alt="ellipse" />
+          <img class="ellipse-how2" src="img/imenaelipse.svg" alt="" />
+          <div class="howitwork__img-div">
+            <img src="img/man_image1.png" alt="man" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section--2" class="section section__future container">
+      <div class="future__wrapper side_to_side_grid">
+        <div class="future__img-content side_to_side_grid_img_content">
+          <img class="future-ellipse1" src="img/imenaelipse.svg" alt="" />
+          <img class="future-ellipse2" src="img/imenaelipse.svg" alt="" />
+          <div class="future__img-div">
+            <img src="img/man2_image.png" alt="man2" />
+          </div>
+        </div>
+
+        <div class="future__text-content">
+          <h2 class="heading__secondary">
+            <span>pathway</span> <br />
+            to future <br />
+            Investment
+          </h2>
+          <p class="future side_to_side_grid_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu,
+            mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem
+            ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+          </p>
+          <div class="future__questions">
+            <div class="future__question">
+              <p class="future__question-text">What is FarmVest?</p>
+              <img
+                class="arrow-down"
+                src="img/arrow-down.svg"
+                alt="arrow-down"
+              />
+            </div>
+
+            <div class="future__question">
+              <p class="future__question-text">How safe is FarmVest?</p>
+              <img
+                class="arrow-down"
+                src="img/arrow-down.svg"
+                alt="arrow-down"
+              />
+            </div>
+
+            <div class="future__question">
+              <p class="future__question-text">What do I gain?</p>
+              <img
+                class="arrow-down"
+                src="img/arrow-down.svg"
+                alt="arrow-down"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section--3" class="section choose__section container">
+      <div class="choose__wrapper side_to_side_grid">
+        <div class="choose__text-content">
+          <h2 class="heading__secondary">
+            Why choose <br />
+            <span>FarmVest</span>
+          </h2>
+          <p class="choose__text side_to_side_grid_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu,
+            mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac
+          </p>
+          <div class="benefits__div">
+            <div class="benefits">
+              <div class="benefits__number-bg">
+                <p class="benefits__number">1</p>
+              </div>
+              <p class="benefits__text">Real-time Checkup</p>
+            </div>
+
+            <div class="benefits">
+              <div class="benefits__number-bg">
+                <p class="benefits__number">2</p>
+              </div>
+              <p class="benefits__text">Flexibility in Investment</p>
+            </div>
+
+            <div class="benefits">
+              <div class="benefits__number-bg">
+                <p class="benefits__number">3</p>
+              </div>
+              <p class="benefits__text">Encrypted and Secured</p>
+            </div>
+
+            <div class="benefits">
+              <div class="benefits__number-bg">
+                <p class="benefits__number">4</p>
+              </div>
+              <p class="benefits__text">Withdraw Anytime</p>
+            </div>
+          </div>
+          <div class="learn__more-link-div">
+            <a class="learn__more-link green__link" href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="choose__img-content side_to_side_grid_img_content">
+          <img class="choose-ellipse1" src="img/imenaelipse.svg" alt="" />
+          <img class="choose-ellipse2" src="img/imenaelipse.svg" alt="" />
+          <div class="choose__img-div">
+            <img src="img/girl.png" alt="girl" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section--4" class="section section__testimonial container">
+      <h1 class="heading__secondary margin__testimonial">
+        What <span>Customers</span> have to say
+      </h1>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <div class="testimonial__text-div">
+              <p class="testimonial__text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable. If you are going to use a passage.
+              </p>
+            </div>
+            <div class="img-and-author">
+              <div class="testimonial__img-div">
+                <img src="img/testi5.jpg" alt="testimonial" />
+              </div>
+              <p class="testimonial__author">Tonia Smart</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <div class="testimonial__text-div">
+              <p class="testimonial__text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable. If you are going to use a passage.
+              </p>
+            </div>
+            <div class="img-and-author">
+              <div class="testimonial__img-div">
+                <img src="img/testimon4.jpg" alt="testimonial" />
+              </div>
+              <p class="testimonial__author">Grace obi</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <div class="testimonial__text-div">
+              <p class="testimonial__text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable. If you are going to use a passage.
+              </p>
+            </div>
+            <div class="img-and-author">
+              <div class="testimonial__img-div">
+                <img src="img/test1.jpg" alt="testimonial" />
+              </div>
+              <p class="testimonial__author">Malia Shmalia</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="dots"></div>
+      </div>
+      <button class="btn prev">
+        <img src="img/arrow-left.svg" alt="" />
+      </button>
+      <button class="btn next">
+        <img src="img/arrow-right.svg" alt="" />
+      </button>
+    </section>
+
+    <section id="section--5" class="section section__download container">
+      <div class="download__wrapper">
+        <img class="dow_elipse1" src="img/imenaelipse.svg" alt="elipse" />
+        <img class="dow_elipse2" src="img/imenaelipse.svg" alt="elipse" />
+        <h1 class="heading__secondary download__heading">
+          Download <span>FarmVest app<br /></span> and invest in your future
+        </h1>
+        <div class="store__logos">
+          <div class="store__img-div">
+            <a class="store__img-link" href="#">
+              <img src="img/appstore.png" alt="appstore" />
+            </a>
+          </div>
+          <div class="store__img-div">
+            <a class="store__img-link" href="#">
+              <img src="img/playstore.png" alt="playstore" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__comps">
+        <div class="footer__comp-text">
+          <div class="footer__logo-div">
+            <img src="img/footerlogo.svg" alt="footerlogo" />
+          </div>
+          <p class="footer__text">
+            High level experience in web design and development knowledge,
+            producing quality work.
+          </p>
+        </div>
+        <div class="footer__comp-subscribe">
+          <p class="footer__text">
+            Subscribe to stay tuned for new web design and latest updates. Let's
+            do it!
+          </p>
+          <div class="footer__input-wrapper">
+            <input
+              class="footer__input"
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter your email"
+            />
+            <a href="#" class="footer__subscribe-link">Subscribe</a>
+          </div>
+        </div>
+        <div class="footer__comp-social">
+          <p class="footer__heading">Follow us</p>
+          <div class="social__icon-wrapper">
+            <div class="social__div">
+              <a class="social-link" href="#">
+                <img src="img/insta.svg" alt="insagram" />
+              </a>
+            </div>
+
+            <div class="social__div">
+              <a class="social-link" href="#">
+                <img src="img/fb.svg" alt="fb" />
+              </a>
+            </div>
+
+            <div class="social__div">
+              <a class="social-link" href="#">
+                <img src="img/twitter.svg" alt="twiiter" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__comp-call">
+          <p class="footer__heading">Call us</p>
+          <p class="footer__number">+2349123456789</p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy;2022 All rights reserved</p>
+        <ul class="footer__bottom-menu">
+          <li class="footer__bottom-menu-item">
+            <a class="footer__bottom-menu-link" href="#">Privacy Policy</a>
+          </li>
+
+          <li class="footer__bottom-menu-item">
+            <a class="footer__bottom-menu-link" href="#">Terms of Use</a>
+          </li>
+
+          <li class="footer__bottom-menu-item">
+            <a class="footer__bottom-menu-link" href="#">Sales and Refunds</a>
+          </li>
+
+          <li class="footer__bottom-menu-item">
+            <a class="footer__bottom-menu-link" href="#">Legal Info</a>
+          </li>
+
+          <li class="footer__bottom-menu-item">
+            <a class="footer__bottom-menu-link" href="#">Site Map</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
