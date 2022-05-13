@@ -25,7 +25,7 @@
     <img class="ellipse1" src="img/imenaelipse.svg" alt="ellipse" />
     <img class="ellipse2" src="img/imenaelipse.svg" alt="ellipse" />
     <img class="star-fill" src="img/star-fill.svg" alt="start" />
-    <img class="money" src="img/money.svg" alt="money" />
+    <!-- <img class="money" src="img/money.svg" alt="money" /> -->
     <img class="dollar" src="img/dollar.svg" alt="dollar" />
     <img class="star-empty" src="img/star-empty.svg" alt="star" />
     <img class="circle-fill" src="img/circle-white.svg" alt="circle" />
@@ -33,70 +33,53 @@
 
     <!-- absolute images -->
     <header class="header">
+      <a class="logo" href="#">
+        <img src="img/logo.svg" alt="logo" />
+      </a>
       <nav class="nav">
-        <a class="logo" href="#">
-          <img src="img/logo.svg" alt="logo" />
-        </a>
-
-        <ul class="menu__list nav__hidden">
+        <ul class="menu__list">
           <li class="menu__list-item">
-            <a href="#section--1" class="menu__list-link"> How it works </a>
+            <a href="#section--1" class="menu__list-link underline-link">
+              How it works
+            </a>
           </li>
           <li class="menu__list-item">
-            <a href="#section--2" class="menu__list-link"> About </a>
+            <a href="#section--2" class="menu__list-link underline-link">
+              About
+            </a>
           </li>
           <li class="menu__list-item">
-            <a href="#section--3" class="menu__list-link"> Features </a>
+            <a href="#section--3" class="menu__list-link underline-link">
+              Features
+            </a>
           </li>
           <li class="menu__list-item">
-            <a href="#section--4" class="menu__list-link"> Testimonial </a>
+            <a href="#section--4" class="menu__list-link underline-link">
+              Testimonial
+            </a>
           </li>
           <li class="menu__list-item">
-            <a href="#section--5" class="getstart mob__get">Get Started</a>
+            <a href="#section--5" class="menu__list-link get-started"
+              >Get Started</a
+            >
           </li>
         </ul>
-
-        <div class="navigation__btns">
-          <a href="#section--5" class="navigation__btns-link sign-in"
-            >Sign In</a
-          >
-          <a href="#section--5" class="navigation__btns-link get-started"
-            >Get Started</a
-          >
-        </div>
-        <button class="btn__burger">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 burger"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#fff"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
-        <button class="btn__close invisible">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="close h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#fff"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <img
+          class="icon-mobile-nav"
+          name="menu-outline"
+          src="img/menu-outline.svg"
+          alt=""
+        />
+        <img
+          class="icon-mobile-nav"
+          name="close-outline"
+          src="img/close-outline.svg"
+          alt=""
+        />
+      </button>
     </header>
     <section class="section__intro container">
       <div class="intro__inner">
@@ -454,19 +437,19 @@
           <div class="social__icon-wrapper">
             <div class="social__div">
               <a class="social-link" href="#">
-                <img src="img/insta.svg" alt="insagram" />
+                <img class="social-logo" src="img/insta.svg" alt="insagram" />
               </a>
             </div>
 
             <div class="social__div">
               <a class="social-link" href="#">
-                <img src="img/fb.svg" alt="fb" />
+                <img class="social-logo" src="img/fb.svg" alt="fb" />
               </a>
             </div>
 
             <div class="social__div">
               <a class="social-link" href="#">
-                <img src="img/twitter.svg" alt="twiiter" />
+                <img class="social-logo" src="img/twitter.svg" alt="twiiter" />
               </a>
             </div>
           </div>
