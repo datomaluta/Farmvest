@@ -1,7 +1,7 @@
 "use strict";
 
 /// Sticky navigation
-// const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav");
 const header = document.querySelector(".header");
 const sectionIntro = document.querySelector(".section__intro");
 const headerHeight = header.getBoundingClientRect().height;
